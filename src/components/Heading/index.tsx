@@ -1,9 +1,7 @@
-import * as Styled from './styles';
-
 export type HeadingProps = {
-  children: React.ReactNode | string;
+  children?: React.ReactNode | string;
 };
 
-export const Heading = (props: HeadingProps) => {
-  return <Styled.Title>{props.children}</Styled.Title>;
+export const Heading = () => {
+  return <h1>Ola</h1>;
 };

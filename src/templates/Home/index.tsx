@@ -1,7 +1,7 @@
 import { Heading } from 'components/Heading';
 
 function Home() {
-  return <Heading>Example</Heading>;
+  return <Heading />;
 }
 
 export default Home;
